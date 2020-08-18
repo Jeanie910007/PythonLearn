@@ -27,11 +27,13 @@
 #gogo"""
 #print(s)
 
-#s="Hello "*3+"World"
-#print(s)
+# s="Hello "*3+"World"
+# print(s)
 
 #字串會對內部的字元編號(索引)從0開始算
 s="Hello"
-print(s[1:4])
-print(s[1:])
-print(s[:4])
+w = s*3+"World"
+print(w)
+# print(s[1:4])
+# print(s[1:])
+# print(s[:4])
